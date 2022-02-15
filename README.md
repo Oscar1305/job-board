@@ -133,3 +133,30 @@ $font-size-body-deskopt
 ### **Recursos multimedia**
 
 Los recursos multimedia a emplear en el documento web, se guardarán en la carpeta resources/. Existen dos subcarpetas, una para los iconos resources/icons/ y otra para las imágenes resources/img/. Las imágenes deben de estar optimizadas y no deben superar un peso de 2MB.
+
+## ** PHP **
+
+En los archivos PHP se programan los diferentes componentes de la web. Cada componente tiene una carpeta con los archivos que lo forman.
+
+Para ejecutar el proyecto, debemos tener instalado un servidor local (XAMPP, LAMP...) y poner la carpeta del proyecto en la carpeta htdocs del servidor. Después deberemos iniciar Apache y MySQL.
+
+El código HTML va fuera de las etiquetas de PHP ( <?php   ?>).
+
+### *Estructura del repositorio php/*
+
+- php/
+  -card/
+     - button_CARD.php
+     - CARD.php
+     - text_CARD.php
+     - title-CARD.php
+     
+  - header/
+     - description_HEADER.php
+     - HEADER.php
+     - logo_HEADER.php
+
+  - bottom_menu.php
+  - pagination.php
+  - search.php
+  - index.php
